@@ -37,24 +37,31 @@ local Button = Home:CreateButton({
    Callback = function()
    end,
 })
- local Tab = JanelaPrincipal:CreateTab("Fisch", "fingerprint")
-local Section = Tab:CreateSection("Scripts de Fish:")
+
+local Tab = JanelaPrincipal:CreateTab("Fisch", "fingerprint")
+   local Section = Tab:CreateSection("Scripts de Fish:")
    local Button = Tab:CreateButton({
       Name = "Fazium Hub",
       Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
       end,
 })
+   local Button = Tab:CreateButton({
+      Name = "Nousigi Hub",
+      Callback = function()
+         loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+      end,
+})
  
- local Tab2 = JanelaPrincipal:CreateTab("Anime Shadow", "fingerprint")
+local Tab2 = JanelaPrincipal:CreateTab("Anime Shadow", "fingerprint")
    local Section = Tab2:CreateSection("Scripts de Anime Shadow:")
    local Button = Tab2:CreateButton({
       Name = "Fazium Hub",
       Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
       end,
+
 })
- 
 
 
  local Tab3= JanelaPrincipal:CreateTab("MISC", "badge-check")
