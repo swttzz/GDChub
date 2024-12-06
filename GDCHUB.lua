@@ -13,7 +13,7 @@ local JanelaPrincipal = Rayfield:CreateWindow({
        FileName = "Big Hub"
     },
 
-    KeySystem = false,
+    KeySystem = true,
     KeySettings = {
        Title = "GDC FAMILY HUB",
        Subtitle = "KEY SYSTEM",
@@ -21,7 +21,7 @@ local JanelaPrincipal = Rayfield:CreateWindow({
        FileName = "GDCkey",
        SaveKey = true,
        GrabKeyFromSite = false,
-       Key = {"1"},
+       Key = {"davilindo"},
     }
  })
  local Home = JanelaPrincipal:CreateTab("Home" , "fingerprint")
