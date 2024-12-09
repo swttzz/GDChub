@@ -43,6 +43,17 @@ local Button = realm:CreateButton({
    end,
 })
 
+local Section2 = realm:CreateSection("SCRIPT PAGO ")
+local Button2 = realm:CreateButton({
+   Name = "OMG HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+      
+   end,
+})
+
+
+
 
 
 local Section2 = Home:CreateSection("discord dos dev")
