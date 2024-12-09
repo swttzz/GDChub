@@ -21,7 +21,7 @@ local JanelaPrincipal = Rayfield:CreateWindow({
        FileName = "GDCkey",
        SaveKey = true,
        GrabKeyFromSite = false,
-       Key = {"davilindo"},
+       Key = {"gdcwow"},
     }
  })
  local Home = JanelaPrincipal:CreateTab("Home" , "fingerprint")
