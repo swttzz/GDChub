@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local JanelaPrincipal = Rayfield:CreateWindow({
-    Name = "GDC HUB",
+    Name = "GDC HUB v1.1",
     Icon = 16861028440,
     LoadingTitle = "Carregando script, faça bom uso!",
     LoadingSubtitle = "by wtfdavi",
@@ -31,6 +31,20 @@ local JanelaPrincipal = Rayfield:CreateWindow({
    Callback = function()
    end,
 })
+
+
+local realm = JanelaPrincipal:CreateTab("Anime Realms", "fingerprint")
+local Section = realm:CreateSection("Anime Realms")
+local Button = realm:CreateButton({
+   Name = "Fazium HUB | FARM DE GEMA ON",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
+      
+   end,
+})
+
+
+
 local Section2 = Home:CreateSection("discord dos dev")
 local Button = Home:CreateButton({
    Name = "wtfdavi & pagliacce",
@@ -44,12 +58,14 @@ local Tab = JanelaPrincipal:CreateTab("Fisch", "fingerprint")
       Name = "Fazium Hub",
       Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
+         
       end,
 })
    local Button = Tab:CreateButton({
       Name = "Nousigi Hub",
       Callback = function()
          loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
+         
       end,
 })
  
@@ -59,7 +75,7 @@ local Tab2 = JanelaPrincipal:CreateTab("Anime Shadow", "fingerprint")
       Name = "Fazium Hub",
       Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
-      end,
+              end,
 
 })
 
@@ -79,7 +95,7 @@ local Tab2 = JanelaPrincipal:CreateTab("Anime Shadow", "fingerprint")
       end,
 })
 
-local Section = Tab3:CreateSection("Miscellaneous")
+local Section = Tab3:CreateSection("Fechar HUB")
 local Button = Tab3:CreateButton({
    Name = "DESTRUIR HUB",
    Callback = function()
