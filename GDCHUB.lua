@@ -32,6 +32,16 @@ local JanelaPrincipal = Rayfield:CreateWindow({
    end,
 })
 
+local Strike = JanelaPrincipal:CreateTab("Anime Strike", "fingerprint")
+local Section = Strike:CreateSection("Anime Strike")
+local Button = Strike:CreateButton({
+   Name = "Lyzer HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Kazeruy/LyzerHub/main/ScriptMain"))() 
+      
+   end,
+})
+
 
 local realm = JanelaPrincipal:CreateTab("Anime Realms", "fingerprint")
 local Section = realm:CreateSection("Anime Realms")
@@ -51,10 +61,6 @@ local Button2 = realm:CreateButton({
       
    end,
 })
-
-
-
-
 
 local Section2 = Home:CreateSection("discord dos dev")
 local Button = Home:CreateButton({
