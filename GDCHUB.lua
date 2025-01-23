@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local JanelaPrincipal = Rayfield:CreateWindow({
-    Name = "GDC HUB v1.1",
+    Name = "GDC HUB v1.5",
     Icon = 16861028440,
     LoadingTitle = "Carregando script, faça bom uso!",
     LoadingSubtitle = "by wtfdavi",
