@@ -42,6 +42,16 @@ local Button = Strike:CreateButton({
    end,
 })
 
+local als = JanelaPrincipal:CreateTab("LastStand", "fingerprint")
+local Section = als:CreateSection("Anime Last Stand")
+local Button = als:CreateButton({
+   Name = "Buang HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/buang5516/buanghub/main/BUANGHUB.lua"))()
+  
+   end,
+})
+
 
 local realm = JanelaPrincipal:CreateTab("Anime Realms", "fingerprint")
 local Section = realm:CreateSection("Anime Realms")
