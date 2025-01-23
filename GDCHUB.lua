@@ -32,13 +32,10 @@ local JanelaPrincipal = Rayfield:CreateWindow({
    end,
 })
 
-local Strike = JanelaPrincipal:CreateTab("Anime Strike", "fingerprint")
-local Section = Strike:CreateSection("Anime Strike")
-local Button = Strike:CreateButton({
-   Name = "Lyzer HUB",
+local Section2 = Home:CreateSection("discord dos dev")
+local Button = Home:CreateButton({
+   Name = "wtfdavi & pagliacce",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Kazeruy/LyzerHub/main/ScriptMain"))() 
-      
    end,
 })
 
@@ -51,32 +48,25 @@ local Button = als:CreateButton({
    end,
 })
 
-
-local realm = JanelaPrincipal:CreateTab("Anime Realms", "fingerprint")
-local Section = realm:CreateSection("Anime Realms")
-local Button = realm:CreateButton({
-   Name = "Fazium HUB | FARM DE GEMA ON",
+local royale = JanelaPrincipal:CreateTab("Anime Royale", "fingerprint")
+local Section = royale:CreateSection("Anime Royale")
+local Button = royale:CreateButton({
+   Name = "Buang HUB",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
-      
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/buang5516/buanghub/main/BUANGHUB.lua"))()   
    end,
 })
 
-local Section2 = realm:CreateSection("SCRIPT PAGO ")
-local Button2 = realm:CreateButton({
-   Name = "OMG HUB",
+local Reborn = JanelaPrincipal:CreateTab("Anime Reborn", "fingerprint")
+local Section = Reborn:CreateSection("Anime Reborn")
+local Button = Reborn:CreateButton({
+   Name = "Nousigi HUB",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
-      
+      loadstring(game:HttpGet("https://nousigi.com/loader.lua"))() 
    end,
 })
 
-local Section2 = Home:CreateSection("discord dos dev")
-local Button = Home:CreateButton({
-   Name = "wtfdavi & pagliacce",
-   Callback = function()
-   end,
-})
+
 
 local Tab = JanelaPrincipal:CreateTab("Fisch", "fingerprint")
    local Section = Tab:CreateSection("Scripts de Fish:")
